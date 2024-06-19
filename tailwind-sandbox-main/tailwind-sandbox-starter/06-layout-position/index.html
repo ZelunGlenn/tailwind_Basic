@@ -7,27 +7,77 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>TailwindCSS</title>
   </head>
-  <body>
+  <body class="h-[12000px]">
     <!-- Positioning -->
-
+    <div class="static bg-red-500 w-5 h-5">aa</div>
+    <div class="fixed right-0 top-0 w-5 h-5 bg-red-400">aa</div>
+    <div class="relative bg-red-600 w-36 h-36">rela
+      <div class="absolute bg-red-700 w-20 h-28 right-0 bottom-0">abs</div>
+    </div>
+    <div class="sticky w-12 h-14 left-1/2 top-0 bg-blue-500">aa</div>
     <!-- Top left corner -->
-
+    <div class="w-20 h-20 bg-green-500 relative">
+      <div class="absolute top-0 left-0 w-10 h-10 bg-green-700"></div>
+    </div>
     <!-- Top right corner -->
-
+    <div class="w-20 h-20 bg-green-500 relative">
+      <div class="absolute top-0 right-0 w-10 h-10 bg-green-600"></div>
+    </div>
     <!-- Bottom left corner -->
-
+    <div class="w-20 h-20 bg-green-500 relative">
+      <div class="absolute bottom-0 left-0 w-10 h-10 bg-green-700"></div>
+    </div>
     <!-- Bottom right corner -->
-
+    <div class="w-20 h-20 bg-green-500 relative">
+      <div class="absolute bottom-0 right-0 w-10 h-10 bg-green-700"></div>
+    </div>
     <!-- Span top edge -->
-
+    <div class="w-20 h-20 bg-green-500 relative">
+      <div class="absolute inset-x-0 top-0 h-10 bg-green-900"></div>
+    </div>
     <!-- Span left edge -->
-
+    <div class="w-20 h-20 bg-green-500 relative">
+      <div class="absolute inset-y-0 left-0 w-10 bg-blue-700 absolute"></div>
+    </div>
     <!-- Span right edge -->
-
+    <div class="w-20 h-20 bg-green-500 relative">
+      <div class="absolute inset-y-0 right-0 w-10 bg-green-700"></div>
+    </div>
     <!-- Span bottom edge -->
-
+    <div class="w-20 h-20 bg-green-500 relative">
+      <div class="absolute bottom-0 inset-x-0 h-10 bg-yellow-700"></div>
+    </div>
     <!-- Display Classes -->
-
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Dolorum reprehenderit cumque, culpa dolorem impedit non,
+      <span class="block font-bold">Block</span>
+      quidem, quod dignissimos sequi vero voluptatum facere corporis! 
+      <span class="inline-block font-bold">inline-Block</span>
+      Beatae unde, voluptas harum eligendi a at fugiat, 
+      <span class="inline font-bold">inline</span>
+      corrupti nostrum placeat eius numquam sint iusto voluptates molestiae 
+      <span></span>
+      facilis adipisci suscipit? Harum aspernatur delectus laborum 
+      libero veritatis maxime totam doloribus reprehenderit neque, 
+      repellat quam voluptatibus aut, omnis eveniet?
+      <table class="table-auto text-left border-collapse">
+        <thead>
+          <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Row 1, Cell 1dsdassfsdfsdfsfsfsdfdfsfsfsfssfsdfsd</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     <!-- Z-Index -->
 
     <!-- Floats -->
