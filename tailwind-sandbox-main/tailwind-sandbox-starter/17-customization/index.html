@@ -5,10 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "740px",
+          },
+          extend: {
+            screens: {
+              chaojiXiao: "230px",
+            }
+          }
+
+        }
+      }
+    </script>
     <title>Customization</title>
   </head>
  <body
-    class="bg-black sm:bg-green-800 md:bg-blue-800 lg:bg-yellow-800 xl:bg-purple-800 2xl:bg-orange-800"
+    class="bg-black chaojiXiao:bg-white sm:bg-green-800 md:bg-blue-800 lg:bg-yellow-800 xl:bg-purple-800 2xl:bg-orange-800"
   >
    
       <h1 class="text-white text-xl"></h1>
